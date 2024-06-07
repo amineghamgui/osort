@@ -5,7 +5,7 @@ from __future__ import print_function
 
 import numpy as np
 
-from ./association.py import *
+from .association import *
 
 
 def k_previous_obs(observations, cur_age, k):
