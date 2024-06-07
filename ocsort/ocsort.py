@@ -6,7 +6,7 @@ from __future__ import print_function
 import numpy as np
 
 # from .association import *
-from kaggle.working.osort.ocsort.association import *
+from association import *
 
 def k_previous_obs(observations, cur_age, k):
     if len(observations) == 0:
