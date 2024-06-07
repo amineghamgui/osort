@@ -5,7 +5,7 @@ from __future__ import print_function
 
 import numpy as np
 
-from /kaggle/working/osort/ocsort/association.py import *
+from ./kaggle/working/osort/ocsort/association.py import *
 
 
 def k_previous_obs(observations, cur_age, k):
