@@ -1,4 +1,4 @@
-# Pipeline de Détection de Vols à l'Étalage
+# Pipeline de Détection de Vols à l'Étalage (OCSORT + YOLONAS + X3D)
 
 Ce pipeline utilise trois modèles pour détecter les actions de vol à l'étalage dans un environnement de magasin :
 
