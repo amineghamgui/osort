@@ -424,6 +424,8 @@ def tracking1(video_path):
 if __name__ == "__main__":
     
     import torch
+    model_name = 'x3d_s'
+    modelx3d_s = torch.hub.load('facebookresearch/pytorchvideo', model_name, pretrained=True)
     import torch.nn as nn
     import json
     import urllib
@@ -441,8 +443,7 @@ if __name__ == "__main__":
     )
     
     # Choose the `x3d_s` model
-    model_name = 'x3d_s'
-    modelx3d_s = torch.hub.load('facebookresearch/pytorchvideo', model_name, pretrained=True)
+
     
     device = "cuda"
     model1 = modelx3d_s.eval()
