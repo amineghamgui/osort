@@ -386,8 +386,8 @@ def tracking1(video_path):
     frame_width = d[0][0].shape[1]
     frame_height = d[0][0].shape[0]
     
-    frame_width1 = d[1][0].shape[1]
-    frame_height1 = d[1][0].shape[0]
+    # frame_width1 = d[1][0].shape[1]
+    # frame_height1 = d[1][0].shape[0]
     print("frame_width",frame_width)
     print("frame_height",)
     
@@ -396,7 +396,7 @@ def tracking1(video_path):
 
     #for i in d.keys():
     print("shape_______________________________",(frame_width,frame_height ))
-    print("shape_______________________________",(frame_width1,frame_height1))
+    # print("shape_______________________________",(frame_width1,frame_height1))
 
 
 
